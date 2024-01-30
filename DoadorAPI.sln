@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoadorAPI", "DoadorAPI\DoadorAPI.csproj", "{EC95AE75-B123-4FE4-B857-06865FA65FF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doador.Service", "Doador.Service\Doador.Service.csproj", "{9AF75C34-62F2-4800-A7B9-F1372503721B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doador.Domain", "Doador.Domain\Doador.Domain.csproj", "{D5EDDF11-6AEA-4B02-8A7F-0FCE06A5F05F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doador.Repository", "Doador.Repository\Doador.Repository.csproj", "{F487918E-24CE-4E64-BB7E-50A7E5B42892}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC95AE75-B123-4FE4-B857-06865FA65FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC95AE75-B123-4FE4-B857-06865FA65FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC95AE75-B123-4FE4-B857-06865FA65FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC95AE75-B123-4FE4-B857-06865FA65FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF75C34-62F2-4800-A7B9-F1372503721B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF75C34-62F2-4800-A7B9-F1372503721B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF75C34-62F2-4800-A7B9-F1372503721B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF75C34-62F2-4800-A7B9-F1372503721B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EDDF11-6AEA-4B02-8A7F-0FCE06A5F05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EDDF11-6AEA-4B02-8A7F-0FCE06A5F05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EDDF11-6AEA-4B02-8A7F-0FCE06A5F05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EDDF11-6AEA-4B02-8A7F-0FCE06A5F05F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F487918E-24CE-4E64-BB7E-50A7E5B42892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F487918E-24CE-4E64-BB7E-50A7E5B42892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F487918E-24CE-4E64-BB7E-50A7E5B42892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F487918E-24CE-4E64-BB7E-50A7E5B42892}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3832F5F5-B58F-4C2C-998A-19F06E1E5A66}
+	EndGlobalSection
+EndGlobal
